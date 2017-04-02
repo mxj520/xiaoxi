@@ -6,9 +6,7 @@
 body,html{
     font-family:"microsoft yahei";
     box-sizing: border-box;
-
-    /*position: relative;*/
-
+    overflow: hidden;
 }
 ul li{
     list-style: none;
@@ -20,7 +18,7 @@ a{
     width: 100%;
 }
 .h{
-    height: 768px;
+    min-height: 768px;
 }
 .box1{
     background: url("../img/12.jpg") no-repeat center;
@@ -33,14 +31,12 @@ a{
     width: 1000px;
     height: 400px;
     text-align: center;
-
-
 }
 .box1 ul {
     overflow: hidden;
 }
 .box1 ul li {
-    margin-top:50px;
+    margin-top:10px;
     width: 100px;
     height: 40px;
     float: left;
@@ -72,7 +68,7 @@ a{
 }
 /*瀑布流层*/
 .waterfall{
-    margin-top:200px;
+    margin-top:100px;
     -moz-column-count:4; /* Firefox */
     -webkit-column-count:4; /* Safari 和 Chrome */
     column-count:4;
@@ -102,7 +98,7 @@ a{
 }
 .wrap{
     width:1000px;
-    margin:10px auto;
+    margin:0 auto;
 }
 .slide {
     height:300px;
@@ -201,13 +197,10 @@ a{
 
 }
 .box5 div {
-
-display: none;
+    display: none;
     width: 800px;
     height: 400px;
-    margin:100px auto;
-
-
+    margin:10px auto;
 }
 
 .box5 div img {

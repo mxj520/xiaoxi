@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* ~~~ --- reset B --- ~~~ */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+strong,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+tbody,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+input,
+select,
+form,
+button {
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+textarea {
+  width: 95%;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:visited,
+a:active,
+a:hover {
+  color: #ff6c00;
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+em,
+i {
+  font-style: normal;
+}
+img {
+  border: none;
+}
+input,
+img {
+  vertical-align: middle;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+body {
+  color: #000;
+  font-family: arial;
+  background: #FFF;
+  overflow-x: hidden;
+}
+/* ~~~ --- reset E--- ~~~ */
+/* ~~~ --- header B --- ~~~ */
+#mmb-header {
+  height: 50px;
+  background: #ff841d;
+  border-bottom: 1px solid #e6e6e6;
+}
+#mmb-header #header1 .logo {
+  padding: 12px;
+  margin-left: 5px;
+  width: 75%;
+}
+#mmb-header #header1 .logo a {
+  display: block;
+  height: 100%;
+}
+#mmb-header #header1 .logo a img {
+  max-height: 25px;
+  overflow: hidden;
+}
+#mmb-header #header1 .appdown {
+  padding: 7px;
+}
+#mmb-header #header1 .appdown a {
+  display: block;
+  height: 100%;
+}
+#mmb-header #header1 .appdown a img {
+  max-height: 34px;
+  overflow: hidden;
+}
+/* ~~~ --- header E --- ~~~ */
+/* ~~~ --- 搜索框 B --- ~~~ */
+#mmb-form-search {
+  border-bottom: 1px solid #e6e6e6;
+}
+#mmb-form-search form {
+  background: white;
+  height: 50px;
+  position: relative;
+  padding: 10px;
+}
+#mmb-form-search form #mmb-searchtxt input {
+  -webkit-appearance: none;
+  background: #f1f1f1;
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+  line-height: 30px;
+  width: 90%;
+  padding-left: 5%;
+  font-size: 16px;
+  position: absolute;
+}
+#mmb-form-search form #mmb-searchbtn input {
+  -webkit-appearance: none;
+  border: none;
+  background: #ff841d;
+  color: #fff;
+  width: 63px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  font-size: 16px;
+  position: absolute;
+  right: 16px;
+}
+/* ~~~ --- 搜索框 E --- ~~~ */
